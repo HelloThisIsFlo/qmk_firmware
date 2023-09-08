@@ -24,9 +24,10 @@
 /* Disable unused features. */
 #define NO_ACTION_ONESHOT
 
+#define CHARYBDIS_DRAGSCROLL_REVERSE_X
 
-#define CHARYBDIS_DRAGSCROLL_BUFFER_SIZE 12 // Increase to reduce scroll speed
-#define CHARYBDIS_MINIMUM_DEFAULT_DPI 800
+#define CHARYBDIS_DRAGSCROLL_BUFFER_SIZE 18 // Increase to reduce scroll speed
+#define CHARYBDIS_MINIMUM_DEFAULT_DPI 1000
 /* Charybdis-specific features. */
 
 #ifdef POINTING_DEVICE_ENABLE
