@@ -30,6 +30,10 @@
 #define CHARYBDIS_MINIMUM_DEFAULT_DPI 1000
 /* Charybdis-specific features. */
 
+#define TAPPING_TERM 150
+#define DYNAMIC_TAPPING_TERM_INCREMENT 25
+
+
 #ifdef POINTING_DEVICE_ENABLE
 // Automatically enable the pointer layer when moving the trackball.  See also:
 // - `CHARYBDIS_AUTO_POINTER_LAYER_TRIGGER_TIMEOUT_MS`
