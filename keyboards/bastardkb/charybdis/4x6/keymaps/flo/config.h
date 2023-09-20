@@ -30,7 +30,7 @@
 #define CHARYBDIS_MINIMUM_DEFAULT_DPI 1000
 /* Charybdis-specific features. */
 
-#define TAPPING_TERM 150
+#define TAPPING_TERM 125
 #define DYNAMIC_TAPPING_TERM_INCREMENT 25
 
 
